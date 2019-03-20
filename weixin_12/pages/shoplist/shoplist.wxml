@@ -1,0 +1,17 @@
+
+<view class="shop" wx:for="{{rows}}" wx:key="index">
+
+     <image src="cloud://mll-52b2ba.6d6c-mll-52b2ba/img/banner/banner1.jpg" class="shop-img"></image>
+<!--店铺信息-->     
+   <view class="shop-info"> 
+        <text class="shop-title">{{item.name}}</text>
+        <text>电话:{{item.tel}}</text>
+        <text>地址:{{item.addr}}</text>
+        <text>营业时间:{{item.time}}</text>
+   </view>
+<!--打分-->   
+<view class="shop-star">
+  <view class="star-after">★★★★★</view>
+  <view class="star-before" style="width:{{item.star}}%">★★★★★</view>
+</view>
+</view>

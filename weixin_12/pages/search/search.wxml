@@ -1,0 +1,22 @@
+<view class="card">
+  <form bindsubmit='checkForm'>
+     <view>
+       <input type='text' class="ipt" placeholder='请输入商品名称' name="name" value='{{name}}'>
+       </input>
+     </view>
+     <view class="cell-item">
+       <button class="btn" form-type='submit'>搜索</button>
+     </view>
+  </form>
+</view>
+<view class="cell-list">
+ <view class="cell-item2" wx:for="{{list}}" wx:key="index"> 
+      <image src="{{item.img}}"></image>
+      <navigator></navigator>
+      <text>商品编号：{{item.fid}}</text>
+      <navigator></navigator>
+      <text>商品名称：{{item.title}}</text>
+      <navigator></navigator>
+      <text>商品价格：{{item.price1}}</text>
+ </view>
+ </view>

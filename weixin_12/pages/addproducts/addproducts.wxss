@@ -1,0 +1,20 @@
+.card{
+  background-color:#fff;
+  border: 1px solid #ddd;
+  border-radius: 20rpx;
+  margin: 60rpx 20rpx;/*外补丁*/
+  padding: 20rpx; 
+  display: flex;
+  flex-direction: column;
+}
+.ipt{
+  border:1px solid rgba(4, 4, 228, 0.521);
+}
+.cell-item{
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.btn{
+  background-color: #0aa1ed;
+  border-radius: 20rpx;
+}

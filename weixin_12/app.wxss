@@ -1,0 +1,5 @@
+/**app.wxss**/
+.divider{
+  height: 50rpx;
+  background-color: red;
+}

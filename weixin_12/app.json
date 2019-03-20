@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/shoplist/shoplist",
+    "pages/search/search",
+    "pages/addproducts/addproducts"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff6600",
+    "navigationBarTitleText": "美乐乐",
+    "navigationBarTextStyle": "white"
+  }
+}

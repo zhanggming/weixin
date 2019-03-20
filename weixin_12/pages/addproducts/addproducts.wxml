@@ -1,0 +1,11 @@
+<view class="card">
+  <form bindsubmit='checkForm'>
+     <view>
+       <input type='text' class="ipt" placeholder='请输入商品名称' name="name" value='{{name}}'>
+       </input>
+     </view>
+     <view class="cell-item">
+       <button class="btn" form-type='submit'>添加商品</button>
+     </view>
+  </form>
+</view>
